@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Christopher Dente | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f4f6f9;
+        }
+        .card-soft {
+            border: none;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+        .muted-label {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+        /* Optional: limit image size on large screens */
+        .profile-img {
+            max-width: 140px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+
+    <!-- Intro -->
+    <div class="row mb-5 align-items-center">
+        <div class="col-md-8">
+            <h1 class="fw-bold mb-2">Christopher Dente</h1>
+            <h5 class="text-muted mb-3">
+                Full-Stack Developer · Application-Focused UI
+            </h5>
+            <p class="fs-5 text-muted">
+                I design and build scalable web applications with clean UI,
+                structured architecture, and real-world system logic.
+            </p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="images/tope.jpg"
+                 class="rounded-circle shadow img-fluid"
+                 alt="Profile">
+        </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="row g-4 mb-5">
+        <div class="col-md-4">
+            <div class="card card-soft p-4">
+                <div class="muted-label">Applications Built</div>
+                <h2 class="fw-bold mb-0">6+</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft p-4">
+                <div class="muted-label">UI Projects</div>
+                <h2 class="fw-bold mb-0">12+</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft p-4">
+                <div class="muted-label">Primary Stack</div>
+                <h6 class="fw-semibold mb-0">
+                    PHP · Laravel · Bootstrap
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Tools -->
+    <div class="card card-soft p-4 mb-5">
+        <h4 class="fw-semibold mb-3">
+            <i class="bi bi-cpu-fill me-2"></i>AI Tools & Workflow
+        </h4>
+        <p class="text-muted mb-3">
+            I integrate AI tools such as ChatGPT, Claude, and Gemini into my
+            development workflow to accelerate prototyping, improve code quality,
+            and validate system logic. All final architecture and implementations
+            are reviewed and controlled by me.
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+            <span class="badge bg-dark">ChatGPT</span>
+            <span class="badge bg-secondary">Claude</span>
+            <span class="badge bg-primary">Gemini</span>
+        </div>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="card card-soft p-4 mb-5">
+        <h4 class="fw-semibold mb-4">
+            <i class="bi bi-briefcase me-2"></i>Work Experience
+        </h4>
+
+        <div class="mb-4">
+            <h6 class="fw-semibold mb-1">Freelance Web Developer</h6>
+            <div class="text-muted small mb-2">
+                Self-Employed · 2023 – Present
+            </div>
+            <ul class="text-muted mb-0">
+                <li>Designed and developed custom web applications using PHP, Laravel, and Bootstrap.</li>
+                <li>Built application-focused UI dashboards for clients in healthcare and e-commerce.</li>
+                <li>Integrated AI-assisted workflows to improve development speed and reliability.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h6 class="fw-semibold mb-1">IT / Web Development Projects</h6>
+            <div class="text-muted small mb-2">
+                Contract & Personal Projects · 2022 – Present
+            </div>
+            <ul class="text-muted mb-0">
+                <li>Developed hospital appointment systems and admin dashboards.</li>
+                <li>Created AI-powered image detection interfaces using Python and YOLO.</li>
+                <li>Maintained SQL Server databases and role-based authentication systems.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="card card-soft p-4 mb-5">
+        <h4 class="fw-semibold mb-3">
+            <i class="bi bi-tools me-2"></i>Technical Skills
+        </h4>
+        <div class="d-flex flex-wrap gap-2">
+            <span class="badge bg-primary">PHP</span>
+            <span class="badge bg-dark">Laravel</span>
+            <span class="badge bg-success">Bootstrap</span>
+            <span class="badge bg-secondary">JavaScript</span>
+            <span class="badge bg-danger">SQL Server</span>
+            <span class="badge bg-warning text-dark">Python</span>
+            <span class="badge bg-info text-dark">YOLO / AI</span>
+        </div>
+    </div>
+
+    <!-- Applications -->
+    <h4 class="fw-semibold mb-4">
+        <i class="bi bi-window-stack me-2"></i>Applications
+    </h4>
+
+    <div class="row g-4 mb-5">
+
+        <div class="col-md-4">
+            <div class="card card-soft p-4 h-100">
+                <h5 class="fw-semibold">
+                    <i class="bi bi-hospital text-primary me-2"></i>
+                    Hospital Management UI
+                </h5>
+                <p class="text-muted small">
+                    Appointment scheduling, doctor dashboards,
+                    patient records, and role-based access control.
+                </p>
+                <a href="#" class="btn btn-outline-primary w-100">
+                    View Application
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card card-soft p-4 h-100">
+                <h5 class="fw-semibold">
+                    <i class="bi bi-cart-check text-success me-2"></i>
+                    E-commerce Platform UI
+                </h5>
+                <p class="text-muted small">
+                    Product catalog, cart management,
+                    checkout flow, and admin controls.
+                </p>
+                <a href="#" class="btn btn-outline-success w-100">
+                    View Application
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card card-soft p-4 h-100">
+                <h5 class="fw-semibold">
+                    <i class="bi bi-cpu text-danger me-2"></i>
+                    AI Object Detection UI
+                </h5>
+                <p class="text-muted small">
+                    Image upload, object detection visualization,
+                    confidence scoring, and exportable results.
+                </p>
+                <a href="#" class="btn btn-outline-danger w-100">
+                    View Application
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Contact -->
+    <div class="card card-soft p-4">
+        <h4 class="fw-semibold mb-3">
+            <i class="bi bi-envelope me-2"></i>Contact
+        </h4>
+        <p class="text-muted mb-2">
+            Open to freelance, contract, or full-time opportunities.
+        </p>
+        <p class="mb-1">
+            <i class="bi bi-envelope-fill me-2"></i> christopher dente
+        </p>
+        <p class="mb-0">
+            <i class="bi bi-github me-2"></i> https://github.com/ChristopherDente/portfolio
+        </p>
+    </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
